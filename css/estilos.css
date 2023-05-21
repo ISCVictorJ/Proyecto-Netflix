@@ -1,0 +1,257 @@
+/*general*/
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.625rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+.bordeGris{
+    border-bottom: 8px solid #222;
+}
+
+section.bgNegro{
+    background: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+section div.contenido{
+    width: 1100px;
+    margin: auto;
+}
+.restaurar{
+    clear: both;
+}
+/*general*/
+
+html, body, .cover{
+    height: 100%;
+
+}
+.cover{
+    background: url("../img/fondo.jpg");
+
+}
+section.cabecera{
+ 
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+nav{
+    margin: 0 3.5rem;
+    padding-top: 26px;
+}
+div.logo{
+    float: left;
+}
+div.login{
+    float: right;   
+}
+div.login:hover{
+    cursor: pointer;
+}
+div.login span{
+    padding: 7px 17px;
+    background: #e50914;
+    border-radius: 4px;
+    color: white;
+}
+div.login span:hover{
+    background: red;
+}
+.presentacion{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.presentacion input{
+    height: 70px;
+    width: 500px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #5695e9;
+    padding-left: 11px;
+    color: #1c1c1c;
+}
+.presentacion span {
+    background: #e50914;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    margin-left: -5px;
+    border: solid #d30f18;
+    font-size: 26px;
+}
+.presentacion span:hover, .contPreguntas span:hover{
+    cursor: pointer;
+    background: red;
+}
+/*TV SECTION*/
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+.izquierda{
+    float: left;
+  
+   
+}
+.derecha{
+    float: right;
+}
+.flotanteTexto{
+    width: 55%;
+}
+.flotanteImagen{
+    width: 45%;
+}
+.contenido img{
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+.contenido h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+.contenido p{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tv video{
+    position: absolute;
+    transform: translate(-425px, 68px);
+    width: 350px;
+    z-index: 1;
+}
+/*TV SECTION END*/
+/*DISFRUTA SECTION*/
+.disfruta video{
+    position: absolute;
+    transform: translate(-400px, 68px);
+    width: 300px;
+    z-index: 1;
+}
+
+/*DISFRUTA SECTION ENDS*/
+.tarjetaInt, .portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tarjetaInt{
+    width: 70%;
+    margin: auto;
+    border: solid 1px #363636;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    background: #000000;
+}
+.tarjeta{
+    position: relative;
+    transform: translate(-65px, -41px);
+}
+.preguntas h2{
+    font-weight: bold;
+    font-size:35px ;
+}
+.contPreguntas{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.contPreguntas div{
+    text-align: left;
+}
+.pregunta{
+    background: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.respuesta{
+    background: #303030;
+   
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.pregunta p, .respuesta p{
+    padding: 10px;
+    padding-left: 20px;
+}
+.respuesta hr{
+    border: solid 4px #262626;
+    width: 100%;
+}
+.pregunta:hover .respuesta{
+   max-height: 1000px;
+}
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.contPreguntas input{
+    height: 60px;
+    width: 430px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #5695e9;
+    padding-left: 11px;
+    color: #1c1c1c;
+}
+.contPreguntas span{
+    background: #e50914;
+    padding: 12px;
+    padding-bottom: 17px;
+    font-weight: 500;
+    margin-left: -5px;
+    border: solid #d30f18;
+   
+}
+.contPreguntas h3{
+    font-size: 15px;
+}
+.pieContenido{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.pie a{
+    padding: 7px;
+}
+.pie .espacio{
+    width: 100px;
+
+}
